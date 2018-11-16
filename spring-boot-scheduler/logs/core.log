@@ -1,0 +1,939 @@
+2018-11-16 10:45:11.649  INFO 3508 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 3508 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 10:45:11.650  INFO 3508 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 10:45:11.698  INFO 3508 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@940cf4a: startup date [Fri Nov 16 10:45:11 CST 2018]; root of context hierarchy
+2018-11-16 10:45:12.406  INFO 3508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 10:45:12.428  INFO 3508 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 10:45:12.439  INFO 3508 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 10:45:12.452  INFO 3508 --- [restartedMain] com.neo.Application                      : Started Application in 1.513 seconds (JVM running for 2.535)
+2018-11-16 10:45:13.158  WARN 3508 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:45:23.362  WARN 3508 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:45:33.554  WARN 3508 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:45:43.752  WARN 3508 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:45:53.944  WARN 3508 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:46:04.139  WARN 3508 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:46:14.403  WARN 3508 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:52:40.397  INFO 6708 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 6708 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 10:52:40.399  INFO 6708 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 10:52:40.439  INFO 6708 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@67320336: startup date [Fri Nov 16 10:52:40 CST 2018]; root of context hierarchy
+2018-11-16 10:52:41.113  INFO 6708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 10:52:41.131  INFO 6708 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 10:52:41.139  INFO 6708 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 10:52:41.147  INFO 6708 --- [restartedMain] com.neo.Application                      : Started Application in 1.154 seconds (JVM running for 1.917)
+2018-11-16 10:52:41.695  WARN 6708 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:52:51.887  WARN 6708 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:53:02.089  WARN 6708 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:53:12.289  WARN 6708 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:53:22.486  WARN 6708 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:53:32.686  WARN 6708 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:53:42.875  WARN 6708 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 10:53:53.064  WARN 6708 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:16:32.156  INFO 10140 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 10140 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:16:32.159  INFO 10140 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:16:32.203  INFO 10140 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4d6abab1: startup date [Fri Nov 16 17:16:32 CST 2018]; root of context hierarchy
+2018-11-16 17:16:32.732  WARN 10140 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:16:32.769  INFO 10140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:16:33.173  INFO 10140 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:16:33.512  INFO 10140 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:16:33.653  WARN 10140 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+2018-11-16 17:16:33.656  INFO 10140 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-11-16 17:16:33.663  INFO 10140 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-11-16 17:16:33.673 ERROR 10140 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at com.neo.Application.main(Application.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 22 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7a57b8cb.CGLIB$sqlSessionFactory$0(<generated>) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7a57b8cb$$FastClassBySpringCGLIB$$892d9e4f.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7a57b8cb.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 23 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	... 36 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:74) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118) ~[mybatis-3.4.6.jar:3.4.6]
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.4.6.jar:3.4.6]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.4.6.jar:3.4.6]
+	... 44 common frames omitted
+
+2018-11-16 17:16:54.794  INFO 8752 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 8752 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:16:54.795  INFO 8752 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:16:54.843  INFO 8752 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@64e33832: startup date [Fri Nov 16 17:16:54 CST 2018]; root of context hierarchy
+2018-11-16 17:16:55.391  WARN 8752 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:16:55.427  INFO 8752 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:16:55.812  INFO 8752 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:16:56.150  INFO 8752 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:16:56.290  WARN 8752 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+2018-11-16 17:16:56.292  INFO 8752 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-11-16 17:16:56.299  INFO 8752 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-11-16 17:16:56.308 ERROR 8752 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at com.neo.Application.main(Application.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 22 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b7ea8514.CGLIB$sqlSessionFactory$0(<generated>) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b7ea8514$$FastClassBySpringCGLIB$$a25fbeff.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b7ea8514.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 23 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	... 36 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:74) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118) ~[mybatis-3.4.6.jar:3.4.6]
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.superman.superman.model.User'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.4.6.jar:3.4.6]
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.superman.superman.model.User
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.4.6.jar:3.4.6]
+	... 44 common frames omitted
+
+2018-11-16 17:17:13.866  INFO 9116 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 9116 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:17:13.867  INFO 9116 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:17:13.906  INFO 9116 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6c607387: startup date [Fri Nov 16 17:17:13 CST 2018]; root of context hierarchy
+2018-11-16 17:17:14.480  WARN 9116 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:17:14.518  INFO 9116 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:17:14.926  INFO 9116 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:17:15.263  INFO 9116 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:17:15.379  WARN 9116 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 17; 文件提前结束。
+2018-11-16 17:17:15.381  INFO 9116 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2018-11-16 17:17:15.388  INFO 9116 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-11-16 17:17:15.397 ERROR 9116 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 17; 文件提前结束。
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at com.neo.Application.main(Application.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 17; 文件提前结束。
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 22 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes\mapper\OderDao.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 17; 文件提前结束。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1db64491.CGLIB$sqlSessionFactory$0(<generated>) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1db64491$$FastClassBySpringCGLIB$$54041ed.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1db64491.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-1.3.2.jar:1.3.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 23 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 35; columnNumber: 17; 文件提前结束。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.4.6.jar:3.4.6]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520) ~[mybatis-spring-1.3.2.jar:1.3.2]
+	... 36 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 文件提前结束。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1014) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[na:1.8.0_181]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339) ~[na:1.8.0_181]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.4.6.jar:3.4.6]
+	... 39 common frames omitted
+
+2018-11-16 17:17:41.319  INFO 4452 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 4452 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:17:41.320  INFO 4452 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:17:41.363  INFO 4452 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@794f46dd: startup date [Fri Nov 16 17:17:41 CST 2018]; root of context hierarchy
+2018-11-16 17:17:41.940  WARN 4452 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:17:41.975  INFO 4452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:17:42.363  INFO 4452 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:17:42.712  INFO 4452 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:17:43.181  INFO 4452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 17:17:43.187  WARN 4452 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 17:17:43.215  INFO 4452 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 17:17:43.216  INFO 4452 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 17:17:43.216  INFO 4452 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 17:17:43.219  INFO 4452 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 17:17:43.220  INFO 4452 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 17:17:43.228  INFO 4452 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 17:17:43.237  INFO 4452 --- [restartedMain] com.neo.Application                      : Started Application in 2.31 seconds (JVM running for 2.941)
+2018-11-16 17:17:43.818  WARN 4452 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":1,"order_status_desc":"\u5DF2\u6210\u56E2","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542359674,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":1}}
+2018-11-16 17:17:54.019  WARN 4452 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":1,"order_status_desc":"\u5DF2\u6210\u56E2","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542359674,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":1}}
+2018-11-16 17:18:04.233  WARN 4452 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":1,"order_status_desc":"\u5DF2\u6210\u56E2","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542359674,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":1}}
+2018-11-16 17:18:14.431  WARN 4452 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":1,"order_status_desc":"\u5DF2\u6210\u56E2","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542359674,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":1}}
+2018-11-16 17:18:24.627  WARN 4452 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":1,"order_status_desc":"\u5DF2\u6210\u56E2","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542359674,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":1}}
+2018-11-16 17:18:34.830  WARN 4452 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":1,"order_status_desc":"\u5DF2\u6210\u56E2","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542359674,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":1}}
+2018-11-16 17:18:45.037  WARN 4452 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":1,"order_status_desc":"\u5DF2\u6210\u56E2","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542359674,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":1}}
+2018-11-16 17:18:56.196  INFO 7340 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 7340 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:18:56.197  INFO 7340 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:18:56.255  INFO 7340 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@17b8c9e0: startup date [Fri Nov 16 17:18:56 CST 2018]; root of context hierarchy
+2018-11-16 17:18:56.866  WARN 7340 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:18:56.908  INFO 7340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:18:57.380  INFO 7340 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:18:57.758  INFO 7340 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:18:58.343  INFO 7340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 17:18:58.352  WARN 7340 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 17:18:58.430  INFO 7340 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 17:18:58.431  INFO 7340 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 17:18:58.431  INFO 7340 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 17:18:58.435  INFO 7340 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 17:18:58.435  INFO 7340 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 17:18:58.444  INFO 7340 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 17:18:58.455  INFO 7340 --- [restartedMain] com.neo.Application                      : Started Application in 2.794 seconds (JVM running for 3.604)
+2018-11-16 17:20:00.453  WARN 7340 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":1,"order_status_desc":"\u5DF2\u6210\u56E2","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542359674,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":1}}
+2018-11-16 17:20:10.668  WARN 7340 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":1,"order_status_desc":"\u5DF2\u6210\u56E2","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542359674,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":1}}
+2018-11-16 17:28:45.302  INFO 8532 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 8532 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:28:45.304  INFO 8532 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:28:45.359  INFO 8532 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d5f7f9e: startup date [Fri Nov 16 17:28:45 CST 2018]; root of context hierarchy
+2018-11-16 17:28:46.214  WARN 8532 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:28:46.260  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:28:46.742  INFO 8532 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:28:47.116  INFO 8532 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:28:47.725  INFO 8532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 17:28:47.734  WARN 8532 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 17:28:47.812  INFO 8532 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 17:28:47.813  INFO 8532 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 17:28:47.814  INFO 8532 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 17:28:47.817  INFO 8532 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 17:28:47.818  INFO 8532 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 17:28:47.827  INFO 8532 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 17:28:47.836  INFO 8532 --- [restartedMain] com.neo.Application                      : Started Application in 3.013 seconds (JVM running for 3.796)
+2018-11-16 17:28:48.406  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:28:48.406  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:28:58.595  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:28:58.596  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:29:08.780  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:29:08.780  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:29:18.976  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:29:18.977  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:29:29.171  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:29:29.172  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:29:39.380  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:29:39.380  WARN 8532 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:29:45.930  INFO 4720 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 4720 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:29:45.933  INFO 4720 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:29:45.998  INFO 4720 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@15527853: startup date [Fri Nov 16 17:29:45 CST 2018]; root of context hierarchy
+2018-11-16 17:29:46.617  WARN 4720 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:29:46.660  INFO 4720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:29:47.150  INFO 4720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:29:47.537  INFO 4720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:29:48.131  INFO 4720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 17:29:48.140  WARN 4720 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 17:29:48.218  INFO 4720 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 17:29:48.219  INFO 4720 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 17:29:48.219  INFO 4720 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 17:29:48.223  INFO 4720 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 17:29:48.224  INFO 4720 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 17:29:48.233  INFO 4720 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 17:29:48.243  INFO 4720 --- [restartedMain] com.neo.Application                      : Started Application in 2.823 seconds (JVM running for 3.665)
+2018-11-16 17:29:48.899  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:29:48.900  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:29:59.095  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:29:59.096  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:30:09.295  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:30:09.296  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:30:19.504  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:30:19.504  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:30:29.701  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:30:29.702  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:30:39.902  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:30:39.903  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:30:50.090  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:30:50.090  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:31:00.302  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:31:00.302  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:31:10.543  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:31:10.543  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:31:20.768  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:31:20.768  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:31:31.071  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:31:31.072  WARN 4720 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:31:42.136  INFO 464 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 464 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:31:42.137  INFO 464 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:31:42.185  INFO 464 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6d5f7f9e: startup date [Fri Nov 16 17:31:42 CST 2018]; root of context hierarchy
+2018-11-16 17:31:42.835  WARN 464 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:31:42.876  INFO 464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:31:43.338  INFO 464 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:31:43.712  INFO 464 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:31:44.285  INFO 464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 17:31:44.294  WARN 464 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 17:31:44.371  INFO 464 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 17:31:44.372  INFO 464 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 17:31:44.372  INFO 464 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 17:31:44.376  INFO 464 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 17:31:44.377  INFO 464 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 17:31:44.386  INFO 464 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 17:31:44.396  INFO 464 --- [restartedMain] com.neo.Application                      : Started Application in 2.723 seconds (JVM running for 3.483)
+2018-11-16 17:31:44.926  WARN 464 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:31:44.926  WARN 464 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:31:55.306  WARN 464 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:31:55.306  WARN 464 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 17:32:05.499  WARN 464 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:32:05.500  WARN 464 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 17:32:15.711  WARN 464 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:32:15.712  WARN 464 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 17:32:24.225  INFO 10120 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 10120 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:32:24.226  INFO 10120 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:32:24.279  INFO 10120 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@252def5e: startup date [Fri Nov 16 17:32:24 CST 2018]; root of context hierarchy
+2018-11-16 17:32:24.896  WARN 10120 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:32:24.939  INFO 10120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:32:25.413  INFO 10120 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:32:25.793  INFO 10120 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:32:26.393  INFO 10120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 17:32:26.401  WARN 10120 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 17:32:26.481  INFO 10120 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 17:32:26.481  INFO 10120 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 17:32:26.482  INFO 10120 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 17:32:26.486  INFO 10120 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 17:32:26.486  INFO 10120 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 17:32:26.495  INFO 10120 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 17:32:26.504  INFO 10120 --- [restartedMain] com.neo.Application                      : Started Application in 2.726 seconds (JVM running for 3.476)
+2018-11-16 17:32:27.052  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:32:27.052  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:32:27.052  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 17:32:37.256  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:32:37.257  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 17:32:37.257  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 17:32:47.462  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:32:47.463  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 17:32:47.463  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 17:32:57.662  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:32:57.663  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 17:32:57.663  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 17:33:07.862  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:33:07.863  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 17:33:07.863  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542410350
+2018-11-16 17:33:18.086  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:33:18.087  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542410350
+2018-11-16 17:33:18.087  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542420350
+2018-11-16 17:33:28.299  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:33:28.299  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542420350
+2018-11-16 17:33:28.300  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542430350
+2018-11-16 17:33:38.531  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:33:38.531  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542430350
+2018-11-16 17:33:38.531  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542440350
+2018-11-16 17:33:48.731  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:33:48.731  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542440350
+2018-11-16 17:33:48.732  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542450350
+2018-11-16 17:33:58.934  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:33:58.934  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542450350
+2018-11-16 17:33:58.934  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542460350
+2018-11-16 17:34:09.143  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:34:09.143  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542460350
+2018-11-16 17:34:09.143  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542470350
+2018-11-16 17:34:19.340  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:34:19.340  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542470350
+2018-11-16 17:34:19.340  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542480350
+2018-11-16 17:34:29.532  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:34:29.532  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542480350
+2018-11-16 17:34:29.533  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542490350
+2018-11-16 17:34:39.735  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:34:39.735  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542490350
+2018-11-16 17:34:39.735  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542500350
+2018-11-16 17:34:49.933  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:34:49.934  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542500350
+2018-11-16 17:34:49.934  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542510350
+2018-11-16 17:35:00.134  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:35:00.134  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542510350
+2018-11-16 17:35:00.134  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542520350
+2018-11-16 17:35:10.334  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:35:10.335  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542520350
+2018-11-16 17:35:10.335  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542530350
+2018-11-16 17:35:20.552  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:35:20.552  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542530350
+2018-11-16 17:35:20.552  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542540350
+2018-11-16 17:35:30.756  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:35:30.757  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542540350
+2018-11-16 17:35:30.757  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542550350
+2018-11-16 17:35:40.948  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:35:40.948  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542550350
+2018-11-16 17:35:40.948  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542560350
+2018-11-16 17:35:51.245  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:35:51.246  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542560350
+2018-11-16 17:35:51.246  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542570350
+2018-11-16 17:36:01.442  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:36:01.442  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542570350
+2018-11-16 17:36:01.442  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542580350
+2018-11-16 17:36:11.649  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:36:11.650  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542580350
+2018-11-16 17:36:11.650  WARN 10120 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542590350
+2018-11-16 17:36:17.425  INFO 6364 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 6364 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:36:17.426  INFO 6364 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:36:17.488  INFO 6364 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6c205ac: startup date [Fri Nov 16 17:36:17 CST 2018]; root of context hierarchy
+2018-11-16 17:36:18.164  WARN 6364 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:36:18.211  INFO 6364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:36:18.702  INFO 6364 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:36:19.098  INFO 6364 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:36:19.694  INFO 6364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 17:36:19.702  WARN 6364 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 17:36:19.782  INFO 6364 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 17:36:19.783  INFO 6364 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 17:36:19.783  INFO 6364 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 17:36:19.787  INFO 6364 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 17:36:19.787  INFO 6364 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 17:36:19.796  INFO 6364 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 17:36:19.805  INFO 6364 --- [restartedMain] com.neo.Application                      : Started Application in 2.857 seconds (JVM running for 3.602)
+2018-11-16 17:36:20.344  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:36:20.345  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:36:20.345  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 17:36:30.553  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:36:30.553  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 17:36:30.553  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 17:36:40.762  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:36:40.762  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 17:36:40.763  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 17:36:51.125  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:36:51.125  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 17:36:51.125  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 17:37:01.322  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:37:01.322  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 17:37:01.322  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542410350
+2018-11-16 17:37:11.525  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:37:11.526  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542410350
+2018-11-16 17:37:11.526  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542420350
+2018-11-16 17:37:21.726  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:37:21.727  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542420350
+2018-11-16 17:37:21.727  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542430350
+2018-11-16 17:37:31.918  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:37:31.918  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542430350
+2018-11-16 17:37:31.919  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542440350
+2018-11-16 17:37:42.124  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:37:42.124  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542440350
+2018-11-16 17:37:42.124  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542450350
+2018-11-16 17:37:52.321  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:37:52.321  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542450350
+2018-11-16 17:37:52.321  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542460350
+2018-11-16 17:38:02.521  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:38:02.522  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542460350
+2018-11-16 17:38:02.522  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542470350
+2018-11-16 17:38:12.711  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:38:12.712  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542470350
+2018-11-16 17:38:12.712  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542480350
+2018-11-16 17:38:22.956  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:38:22.957  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542480350
+2018-11-16 17:38:22.957  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542490350
+2018-11-16 17:38:33.163  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:38:33.164  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542490350
+2018-11-16 17:38:33.164  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542500350
+2018-11-16 17:38:43.358  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:38:43.359  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542500350
+2018-11-16 17:38:43.359  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542510350
+2018-11-16 17:38:53.604  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:38:53.605  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542510350
+2018-11-16 17:38:53.605  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542520350
+2018-11-16 17:39:03.807  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:39:03.807  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542520350
+2018-11-16 17:39:03.807  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542530350
+2018-11-16 17:39:13.998  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:39:13.999  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542530350
+2018-11-16 17:39:13.999  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542540350
+2018-11-16 17:39:24.194  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:39:24.195  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542540350
+2018-11-16 17:39:24.195  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542550350
+2018-11-16 17:39:34.408  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:39:34.408  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542550350
+2018-11-16 17:39:34.408  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542560350
+2018-11-16 17:39:44.626  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:39:44.626  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542560350
+2018-11-16 17:39:44.626  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542570350
+2018-11-16 17:39:54.823  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:39:54.823  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542570350
+2018-11-16 17:39:54.823  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542580350
+2018-11-16 17:40:05.016  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:40:05.016  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542580350
+2018-11-16 17:40:05.016  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542590350
+2018-11-16 17:40:15.208  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:40:15.208  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542590350
+2018-11-16 17:40:15.208  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542600350
+2018-11-16 17:40:25.405  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:40:25.406  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542600350
+2018-11-16 17:40:25.406  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542610350
+2018-11-16 17:40:35.605  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:40:35.605  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542610350
+2018-11-16 17:40:35.605  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542620350
+2018-11-16 17:40:45.828  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:40:45.828  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542620350
+2018-11-16 17:40:45.828  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542630350
+2018-11-16 17:40:56.031  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:40:56.031  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542630350
+2018-11-16 17:40:56.031  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542640350
+2018-11-16 17:41:06.240  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:41:06.241  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542640350
+2018-11-16 17:41:06.241  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542650350
+2018-11-16 17:41:16.442  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:41:16.442  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542650350
+2018-11-16 17:41:16.442  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542660350
+2018-11-16 17:41:26.637  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:41:26.638  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542660350
+2018-11-16 17:41:26.638  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542670350
+2018-11-16 17:41:36.842  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:41:36.842  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542670350
+2018-11-16 17:41:36.842  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542680350
+2018-11-16 17:41:47.051  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:41:47.052  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542680350
+2018-11-16 17:41:47.052  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542690350
+2018-11-16 17:41:57.259  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:41:57.260  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542690350
+2018-11-16 17:41:57.260  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542700350
+2018-11-16 17:42:07.473  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:42:07.474  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542700350
+2018-11-16 17:42:07.474  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542710350
+2018-11-16 17:42:17.666  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:42:17.666  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542710350
+2018-11-16 17:42:17.666  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542720350
+2018-11-16 17:42:27.857  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:42:27.858  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542720350
+2018-11-16 17:42:27.858  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542730350
+2018-11-16 17:42:38.056  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:42:38.057  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542730350
+2018-11-16 17:42:38.057  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542740350
+2018-11-16 17:42:48.263  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:42:48.264  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542740350
+2018-11-16 17:42:48.264  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542750350
+2018-11-16 17:42:58.483  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:42:58.484  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542750350
+2018-11-16 17:42:58.484  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542760350
+2018-11-16 17:43:08.717  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:43:08.717  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542760350
+2018-11-16 17:43:08.717  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542770350
+2018-11-16 17:43:18.919  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:43:18.919  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542770350
+2018-11-16 17:43:18.920  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542780350
+2018-11-16 17:43:29.124  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:43:29.124  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542780350
+2018-11-16 17:43:29.124  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542790350
+2018-11-16 17:43:39.324  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:43:39.324  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542790350
+2018-11-16 17:43:39.324  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542800350
+2018-11-16 17:43:49.521  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:43:49.521  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542800350
+2018-11-16 17:43:49.521  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542810350
+2018-11-16 17:43:59.718  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:43:59.718  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542810350
+2018-11-16 17:43:59.718  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542820350
+2018-11-16 17:44:09.915  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:44:09.915  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542820350
+2018-11-16 17:44:09.915  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542830350
+2018-11-16 17:44:20.124  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:44:20.124  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542830350
+2018-11-16 17:44:20.124  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542840350
+2018-11-16 17:44:30.334  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:44:30.334  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542840350
+2018-11-16 17:44:30.334  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542850350
+2018-11-16 17:44:40.558  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:44:40.558  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542850350
+2018-11-16 17:44:40.558  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542860350
+2018-11-16 17:44:50.772  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:44:50.772  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542860350
+2018-11-16 17:44:50.772  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542870350
+2018-11-16 17:45:00.960  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:45:00.961  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542870350
+2018-11-16 17:45:00.961  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542880350
+2018-11-16 17:45:11.151  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:45:11.151  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542880350
+2018-11-16 17:45:11.152  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542890350
+2018-11-16 17:45:21.338  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:45:21.338  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542890350
+2018-11-16 17:45:21.338  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542900350
+2018-11-16 17:45:31.534  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:45:31.534  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542900350
+2018-11-16 17:45:31.534  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542910350
+2018-11-16 17:45:41.726  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:45:41.726  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542910350
+2018-11-16 17:45:41.726  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542920350
+2018-11-16 17:45:51.915  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:45:51.915  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542920350
+2018-11-16 17:45:51.915  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542930350
+2018-11-16 17:46:02.121  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:46:02.121  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542930350
+2018-11-16 17:46:02.121  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542940350
+2018-11-16 17:46:12.340  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:46:12.340  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542940350
+2018-11-16 17:46:12.341  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542950350
+2018-11-16 17:46:22.546  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:46:22.547  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542950350
+2018-11-16 17:46:22.547  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542960350
+2018-11-16 17:46:32.748  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:46:32.748  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542960350
+2018-11-16 17:46:32.748  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542970350
+2018-11-16 17:46:42.948  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:46:42.949  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542970350
+2018-11-16 17:46:42.949  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542980350
+2018-11-16 17:46:53.145  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:46:53.145  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542980350
+2018-11-16 17:46:53.146  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542990350
+2018-11-16 17:47:03.392  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:47:03.392  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542990350
+2018-11-16 17:47:03.392  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543000350
+2018-11-16 17:47:13.592  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:47:13.593  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543000350
+2018-11-16 17:47:13.593  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543010350
+2018-11-16 17:47:23.797  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:47:23.797  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543010350
+2018-11-16 17:47:23.797  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543020350
+2018-11-16 17:47:34.000  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:47:34.000  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543020350
+2018-11-16 17:47:34.000  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543030350
+2018-11-16 17:47:44.197  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:47:44.197  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543030350
+2018-11-16 17:47:44.197  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543040350
+2018-11-16 17:47:54.387  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:47:54.387  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543040350
+2018-11-16 17:47:54.388  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543050350
+2018-11-16 17:48:04.589  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:48:04.589  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543050350
+2018-11-16 17:48:04.589  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543060350
+2018-11-16 17:48:14.782  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:48:14.783  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543060350
+2018-11-16 17:48:14.783  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543070350
+2018-11-16 17:48:24.990  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:48:24.991  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543070350
+2018-11-16 17:48:24.991  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543080350
+2018-11-16 17:48:35.190  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:48:35.190  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543080350
+2018-11-16 17:48:35.190  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543090350
+2018-11-16 17:48:45.379  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:48:45.379  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543090350
+2018-11-16 17:48:45.379  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543100350
+2018-11-16 17:48:55.571  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:48:55.571  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543100350
+2018-11-16 17:48:55.571  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543110350
+2018-11-16 17:49:05.818  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:49:05.818  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543110350
+2018-11-16 17:49:05.818  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543120350
+2018-11-16 17:49:16.017  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:49:16.017  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543120350
+2018-11-16 17:49:16.017  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543130350
+2018-11-16 17:49:26.213  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:49:26.213  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543130350
+2018-11-16 17:49:26.213  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543140350
+2018-11-16 17:49:36.442  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:49:36.443  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543140350
+2018-11-16 17:49:36.443  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543150350
+2018-11-16 17:49:46.639  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:49:46.640  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543150350
+2018-11-16 17:49:46.640  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543160350
+2018-11-16 17:49:56.854  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:49:56.854  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543160350
+2018-11-16 17:49:56.854  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543170350
+2018-11-16 17:50:07.050  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:50:07.050  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543170350
+2018-11-16 17:50:07.050  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543180350
+2018-11-16 17:50:17.234  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:50:17.235  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543180350
+2018-11-16 17:50:17.235  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543190350
+2018-11-16 17:50:27.427  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:50:27.428  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543190350
+2018-11-16 17:50:27.428  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543200350
+2018-11-16 17:50:37.618  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:50:37.619  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543200350
+2018-11-16 17:50:37.619  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543210350
+2018-11-16 17:50:47.816  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:50:47.817  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543210350
+2018-11-16 17:50:47.817  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543220350
+2018-11-16 17:50:58.010  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:50:58.010  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543220350
+2018-11-16 17:50:58.010  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543230350
+2018-11-16 17:51:08.207  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:51:08.207  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543230350
+2018-11-16 17:51:08.207  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543240350
+2018-11-16 17:51:18.398  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:51:18.398  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543240350
+2018-11-16 17:51:18.399  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543250350
+2018-11-16 17:51:28.603  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:51:28.603  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543250350
+2018-11-16 17:51:28.603  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543260350
+2018-11-16 17:51:38.837  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:51:38.838  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543260350
+2018-11-16 17:51:38.838  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543270350
+2018-11-16 17:51:49.116  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:51:49.116  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543270350
+2018-11-16 17:51:49.116  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543280350
+2018-11-16 17:51:59.320  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:51:59.321  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543280350
+2018-11-16 17:51:59.321  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543290350
+2018-11-16 17:52:09.526  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:52:09.526  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543290350
+2018-11-16 17:52:09.526  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543300350
+2018-11-16 17:52:19.718  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:52:19.719  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543300350
+2018-11-16 17:52:19.719  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543310350
+2018-11-16 17:52:29.922  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:52:29.922  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543310350
+2018-11-16 17:52:29.922  WARN 6364 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1543320350
+2018-11-16 17:54:53.432  INFO 5732 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 5732 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 17:54:53.433  INFO 5732 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 17:54:53.486  INFO 5732 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@161b5ede: startup date [Fri Nov 16 17:54:53 CST 2018]; root of context hierarchy
+2018-11-16 17:54:54.077  WARN 5732 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 17:54:54.115  INFO 5732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:54:54.506  INFO 5732 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 17:54:54.840  INFO 5732 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 17:54:55.314  INFO 5732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-11-16 17:54:55.321  WARN 5732 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 17:54:55.350  INFO 5732 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 17:54:55.351  INFO 5732 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 17:54:55.351  INFO 5732 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 17:54:55.354  INFO 5732 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 17:54:55.355  INFO 5732 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 17:54:55.363  INFO 5732 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 17:54:55.370  INFO 5732 --- [restartedMain] com.neo.Application                      : Started Application in 2.334 seconds (JVM running for 2.985)
+2018-11-16 17:54:55.890  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:54:55.890  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 17:54:55.890  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 17:55:06.086  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:55:06.086  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 17:55:06.086  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 17:55:16.327  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:55:16.328  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 17:55:16.328  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 17:55:26.528  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:55:26.529  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 17:55:26.529  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 17:55:36.724  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:55:36.724  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 17:55:36.724  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542410350
+2018-11-16 17:55:46.917  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:55:46.917  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542410350
+2018-11-16 17:55:46.918  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542420350
+2018-11-16 17:55:57.133  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:55:57.134  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542420350
+2018-11-16 17:55:57.134  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542430350
+2018-11-16 17:56:07.342  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:56:07.343  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542430350
+2018-11-16 17:56:07.343  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542440350
+2018-11-16 17:56:17.538  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:56:17.539  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542440350
+2018-11-16 17:56:17.539  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542450350
+2018-11-16 17:56:27.726  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:56:27.726  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542450350
+2018-11-16 17:56:27.726  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542460350
+2018-11-16 17:56:37.931  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:56:37.931  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542460350
+2018-11-16 17:56:37.932  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542470350
+2018-11-16 17:56:48.121  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:56:48.121  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542470350
+2018-11-16 17:56:48.121  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542480350
+2018-11-16 17:56:58.319  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 17:56:58.319  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542480350
+2018-11-16 17:56:58.319  WARN 5732 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542490350
+2018-11-16 19:30:11.906  INFO 3036 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 3036 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 19:30:11.908  INFO 3036 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 19:30:11.955  INFO 3036 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1fe5fdee: startup date [Fri Nov 16 19:30:11 CST 2018]; root of context hierarchy
+2018-11-16 19:30:12.616  WARN 3036 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 19:30:12.653  INFO 3036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 19:30:13.071  INFO 3036 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 19:30:13.413  INFO 3036 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 19:30:13.925  WARN 3036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-11-16 19:30:13.931  WARN 3036 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 19:30:13.962  INFO 3036 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 19:30:13.962  INFO 3036 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 19:30:13.963  INFO 3036 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 19:30:13.966  INFO 3036 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 19:30:13.966  INFO 3036 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 19:30:13.974  INFO 3036 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 19:30:13.983  INFO 3036 --- [restartedMain] com.neo.Application                      : Started Application in 2.482 seconds (JVM running for 3.156)
+2018-11-16 19:30:14.693  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":4,"order_status_desc":"\u5BA1\u6838\u5931\u8D25","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":1542364629,"order_modify_at":1542364629,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"},{"order_sn":"181116-244544308351448","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1881,"order_amount":1881,"promotion_rate":10,"promotion_amount":19,"batch_no":"","order_status":-1,"order_status_desc":"\u5F85\u652F\u4ED8","order_create_time":1542363159,"order_pay_time":null,"order_group_success_time":null,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542363159,"match_channel":5,"verify_time":null,"type":0,"group_id":580244544308351448,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"},{"order_sn":"181116-015781724951448","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":342,"order_amount":342,"promotion_rate":10,"promotion_amount":3,"batch_no":"","order_status":-1,"order_status_desc":"\u5F85\u652F\u4ED8","order_create_time":1542363124,"order_pay_time":null,"order_group_success_time":null,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542363124,"match_channel":5,"verify_time":null,"type":0,"group_id":580015781724951448,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":3}}
+2018-11-16 19:30:14.940  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":4,"order_status_desc":"\u5BA1\u6838\u5931\u8D25","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":1542364629,"order_modify_at":1542364629,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"},{"order_sn":"181116-244544308351448","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1881,"order_amount":1881,"promotion_rate":10,"promotion_amount":19,"batch_no":"","order_status":-1,"order_status_desc":"\u5F85\u652F\u4ED8","order_create_time":1542363159,"order_pay_time":null,"order_group_success_time":null,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542363159,"match_channel":5,"verify_time":null,"type":0,"group_id":580244544308351448,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"},{"order_sn":"181116-015781724951448","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":342,"order_amount":342,"promotion_rate":10,"promotion_amount":3,"batch_no":"","order_status":-1,"order_status_desc":"\u5F85\u652F\u4ED8","order_create_time":1542363124,"order_pay_time":null,"order_group_success_time":null,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542363124,"match_channel":5,"verify_time":null,"type":0,"group_id":580015781724951448,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":3}}
+2018-11-16 19:30:14.940  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 19:30:14.940  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 19:30:25.135  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:30:25.136  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 19:30:25.136  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 19:30:35.338  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:30:35.338  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 19:30:35.338  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 19:30:45.533  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:30:45.533  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 19:30:45.533  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 19:30:55.730  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:30:55.731  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 19:30:55.731  WARN 3036 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542410350
+2018-11-16 19:31:12.205  INFO 9952 --- [restartedMain] com.neo.Application                      : Starting Application on asus-PC with PID 9952 (C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler\target\classes started by Administrator in C:\Users\Administrator\Desktop\springboot_SCHE\spring-boot-examples\spring-boot-scheduler)
+2018-11-16 19:31:12.206  INFO 9952 --- [restartedMain] com.neo.Application                      : No active profile set, falling back to default profiles: default
+2018-11-16 19:31:12.252  INFO 9952 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38a7e017: startup date [Fri Nov 16 19:31:12 CST 2018]; root of context hierarchy
+2018-11-16 19:31:12.826  WARN 9952 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.neo]' package. Please check your configuration.
+2018-11-16 19:31:12.861  INFO 9952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 19:31:13.257  INFO 9952 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2018-11-16 19:31:13.592  INFO 9952 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-11-16 19:31:14.098  WARN 9952 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-11-16 19:31:14.105  WARN 9952 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-11-16 19:31:14.134  INFO 9952 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-16 19:31:14.134  INFO 9952 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-11-16 19:31:14.134  INFO 9952 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-11-16 19:31:14.138  INFO 9952 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-11-16 19:31:14.138  INFO 9952 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-11-16 19:31:14.146  INFO 9952 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-11-16 19:31:14.153  INFO 9952 --- [restartedMain] com.neo.Application                      : Started Application in 2.343 seconds (JVM running for 2.98)
+2018-11-16 19:31:14.674  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[{"order_sn":"181116-274456249070572","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1121,"order_amount":1121,"promotion_rate":10,"promotion_amount":11,"batch_no":"","order_status":4,"order_status_desc":"\u5BA1\u6838\u5931\u8D25","order_create_time":1542359661,"order_pay_time":1542359669,"order_group_success_time":1542359669,"order_receive_time":null,"order_verify_time":null,"order_settle_time":1542364629,"order_modify_at":1542364629,"match_channel":5,"verify_time":null,"type":0,"group_id":580274456249070572,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"},{"order_sn":"181116-244544308351448","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":1881,"order_amount":1881,"promotion_rate":10,"promotion_amount":19,"batch_no":"","order_status":-1,"order_status_desc":"\u5F85\u652F\u4ED8","order_create_time":1542363159,"order_pay_time":null,"order_group_success_time":null,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542363159,"match_channel":5,"verify_time":null,"type":0,"group_id":580244544308351448,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"},{"order_sn":"181116-015781724951448","goods_id":1488865932,"goods_name":"\u3010\u6210\u4EBA\u8863\u67B6\u9632\u6ED1\u52A0\u7C97\u3011\u8863\u67B6\u5B50\u8863\u67B650\u652F\u667E\u8863\u67B6\u8863\u670D\u67B6\u6302\u8863\u67B6\u513F\u7AE5\u8863\u67B6","goods_thumbnail_url":"http://t00img.yangkeduo.com/t11img/images/2018-06-14/7864cf5ee1f2e82c89671e48c8feefa8.jpeg","goods_quantity":1,"goods_price":342,"order_amount":342,"promotion_rate":10,"promotion_amount":3,"batch_no":"","order_status":-1,"order_status_desc":"\u5F85\u652F\u4ED8","order_create_time":1542363124,"order_pay_time":null,"order_group_success_time":null,"order_receive_time":null,"order_verify_time":null,"order_settle_time":null,"order_modify_at":1542363124,"match_channel":5,"verify_time":null,"type":0,"group_id":580015781724951448,"auth_duo_id":0,"zs_duo_id":null,"custom_parameters":"","duo_coupon_amount":0,"p_id":"4165519_37495246"}],"total_count":3}}
+2018-11-16 19:31:14.674  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542360350
+2018-11-16 19:31:14.674  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 19:31:24.873  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:31:24.873  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542370350
+2018-11-16 19:31:24.873  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 19:31:35.077  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:31:35.077  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542380350
+2018-11-16 19:31:35.077  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 19:31:45.277  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:31:45.278  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542390350
+2018-11-16 19:31:45.278  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 19:31:55.477  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:31:55.477  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542400350
+2018-11-16 19:31:55.477  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542410350
+2018-11-16 19:32:05.674  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:32:05.674  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542410350
+2018-11-16 19:32:05.674  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542420350
+2018-11-16 19:32:15.881  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:32:15.881  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542420350
+2018-11-16 19:32:15.881  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542430350
+2018-11-16 19:32:26.073  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:32:26.073  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542430350
+2018-11-16 19:32:26.073  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542440350
+2018-11-16 19:32:36.266  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:32:36.266  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542440350
+2018-11-16 19:32:36.267  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542450350
+2018-11-16 19:32:46.460  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:32:46.461  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542450350
+2018-11-16 19:32:46.461  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542460350
+2018-11-16 19:32:56.666  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:32:56.667  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542460350
+2018-11-16 19:32:56.667  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542470350
+2018-11-16 19:33:06.865  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:33:06.866  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542470350
+2018-11-16 19:33:06.866  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542480350
+2018-11-16 19:33:17.109  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:33:17.110  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542480350
+2018-11-16 19:33:17.110  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542490350
+2018-11-16 19:33:27.308  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : {"order_list_get_response":{"order_list":[],"total_count":0}}
+2018-11-16 19:33:27.308  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542490350
+2018-11-16 19:33:27.308  WARN 9952 --- [pool-1-thread-1] com.neo.task.SchedulerTask               : 1542500350
