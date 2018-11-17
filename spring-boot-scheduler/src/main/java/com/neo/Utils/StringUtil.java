@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
  * Created by liujupeng on 2018/11/6.
  */
 public class StringUtil {
+
     //判断字符串是否为�?
     public static String isStrNull(String str){
         return (str == null ? "" : str.toString().trim());

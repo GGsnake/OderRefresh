@@ -89,7 +89,7 @@ public class SchedulerTask {
 //        }
 
     //订单落库
-    @Scheduled(fixedRate = 19000)
+    @Scheduled(fixedRate = 5000)
     public void reportCurrentTime() {
         String res = null;
         String stattimestamp = "1542335895";
@@ -117,12 +117,33 @@ public class SchedulerTask {
             if (total_count<10){
                 for (int i = 0; i < jsonObject.size(); i++) {
                 JSONObject o = (JSONObject) jsonObject.get(i);
-                pddOderDao.addOder(o.toJavaObject(PddOderBean.class));
+//                pddOderDao.addOder(o.toJavaObject(PddOderBean.class));
                 }
                 return;
             }
-            Integer page = total_count / pagesize;
-//
+            logger.warn(String.valueOf(total_count));
+
+            int totalPages;//总页数
+            totalPages = total_count / pagesize;
+            if (total_count % pagesize != 0){
+                totalPages ++;
+            }
+            for (int i = totalPages; i >0; i--) {
+                urlSign.put("page_size", "10");
+                urlSign.put("timestamp", String.valueOf(System.currentTimeMillis() / 1000));
+                urlSign.remove("sign");
+                urlSign.put("page", String.valueOf(i));
+                urlSign.put("sign", EveryUtils.pddSign(urlSign, SECRET));
+
+                res = HttpRequest.sendPost("https://gw-api.pinduoduo.com/api/router", urlSign);
+                JSONArray jsb = JSONObject.parseObject(res).getJSONObject("order_list_get_response").getJSONArray("order_list");
+                for (int j = 0; i < jsb.size(); j++) {
+                 JSONObject o = (JSONObject) jsb.get(i);
+                pddOderDao.addOder(o.toJavaObject(PddOderBean.class));
+                }
+//                pddOderDao.addOder(o.toJavaObject(PddOderBean.class));
+            }
+            logger.warn(String.valueOf(totalPages));
 //            for ()
 //                urlSign.put("sign", EveryUtils.pddSign(urlSign, SECRET));
 //
@@ -133,7 +154,6 @@ public class SchedulerTask {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        logger.warn(res);
     }
 
     }

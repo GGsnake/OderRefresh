@@ -12,7 +12,8 @@ spring:
   redis:
     database: 0
 #    host: 121.201.43.229
-    host: 192.168.1.6
+#    host: 192.168.1.6
+    host: 127.0.0.1
     port: 6379
 #    password: huazhongBAO
     password:
@@ -32,8 +33,8 @@ spring:
       filters: stat
       driver-class-name: com.mysql.jdbc.Driver
       #基本属性
+#      url: jdbc:mysql://192.168.1.6:3306/yetdwell?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       url: jdbc:mysql://192.168.1.6:3306/yetdwell?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-#      url: jdbc:mysql://121.201.46.206:3306/skch?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       username: root
       password: root
 #      password: huazhongno1

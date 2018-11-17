@@ -34,7 +34,7 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
       #基本属性
 #      url: jdbc:mysql://192.168.1.6:3306/yetdwell?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-      url: jdbc:mysql://127.0.0.1:3306/skch?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      url: jdbc:mysql://192.168.1.6:3306/yetdwell?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       username: root
       password: root
 #      password: huazhongno1
