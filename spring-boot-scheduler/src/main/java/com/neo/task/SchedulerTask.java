@@ -101,17 +101,35 @@ public class SchedulerTask {
         urlSign.put("timestamp", timestamp);
         urlSign.put("end_update_time", timestamp);
         urlSign.put("start_update_time", stattimestamp);
+        urlSign.put("page_size", "10");
+        urlSign.put("page", "1");
         urlSign.put("data_type", "JSON");
         urlSign.put("sign", EveryUtils.pddSign(urlSign, SECRET));
         //        urlSign.put("access_token", ACCESS_TOKEN);
         try {
+            Integer pagesize=10;
             res = HttpRequest.sendPost("https://gw-api.pinduoduo.com/api/router", urlSign);
             JSONArray jsonObject = JSONObject.parseObject(res).getJSONObject("order_list_get_response").getJSONArray("order_list");
-            HashOperations hashOperations = redisTemplate.opsForHash();
-            for (int i = 0; i < jsonObject.size(); i++) {
+            Integer total_count = Integer.valueOf(JSONObject.parseObject(res).getJSONObject("order_list_get_response").getString("total_count"));
+            if (total_count==0){
+                return;
+            }
+            if (total_count<10){
+                for (int i = 0; i < jsonObject.size(); i++) {
                 JSONObject o = (JSONObject) jsonObject.get(i);
                 pddOderDao.addOder(o.toJavaObject(PddOderBean.class));
+                }
+                return;
             }
+            Integer page = total_count / pagesize;
+//
+//            for ()
+//                urlSign.put("sign", EveryUtils.pddSign(urlSign, SECRET));
+//
+//            for (int i = 0; i < jsonObject.size(); i++) {
+//                JSONObject o = (JSONObject) jsonObject.get(i);
+////                pddOderDao.addOder(o.toJavaObject(PddOderBean.class));
+//            }
         } catch (IOException e) {
             e.printStackTrace();
         }
