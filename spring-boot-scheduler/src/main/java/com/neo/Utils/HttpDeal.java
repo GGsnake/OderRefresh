@@ -48,7 +48,6 @@ public class HttpDeal {
             response = httpclient.execute(httpget);
             if(response.getStatusLine().getStatusCode()==200){
                 content = EntityUtils.toString(response.getEntity(),"utf-8");
-                System.out.println(content);
             }
         } catch (ClientProtocolException e) {
             e.printStackTrace();
@@ -93,7 +92,6 @@ public class HttpDeal {
             response = httpclient.execute(httpPost);
             if(response.getStatusLine().getStatusCode()==200){
                 content = EntityUtils.toString(response.getEntity(),"utf-8");
-                System.out.println(content);
             }
         } catch (ClientProtocolException e) {
             e.printStackTrace();

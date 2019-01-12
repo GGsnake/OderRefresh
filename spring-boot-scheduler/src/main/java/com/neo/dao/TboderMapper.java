@@ -1,11 +1,14 @@
 package com.neo.dao;
 
+import com.neo.model.SysJhAdviceOder;
 import com.neo.model.Tboder;
+import com.neo.model.Userinfo;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
+
 @Mapper
 public interface TboderMapper {
     /**
@@ -55,13 +58,28 @@ public interface TboderMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(Tboder record);
+
     @Select("select id from tboder where trade_id=#{trkId}")
-    Integer findIs(Long  trkId);
+    Integer findIs(Long trkId);
 
     /**
      * 检查订单是否已经存在
+     *
      * @param
      * @return
      */
-    Integer oderUpdate(@Param("tb") Tboder  tb);
+    Integer oderUpdate(@Param("tb") Tboder tb);
+
+    /**
+     * 检查订单是否已经存在
+     *
+     * @param
+     * @return
+     */
+    Integer saveTbOderAdvice(SysJhAdviceOder sysJhAdviceOder);
+
+
+
+    Userinfo queryUserForPid(Userinfo userinfo);
+
 }
