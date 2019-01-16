@@ -114,7 +114,21 @@
             <artifactId>jackson-core-asl</artifactId>
             <version>1.9.13</version>
         </dependency>
-
+		<dependency>
+			<groupId>com.jdcps</groupId>
+			<artifactId>jdcpsjar</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>com.pdd</groupId>
+			<artifactId>pddsdk</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.taobaosdk</groupId>
+			<artifactId>taobaosdk</artifactId>
+			<version>1.0.0</version>
+		</dependency>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-mapper-asl</artifactId>

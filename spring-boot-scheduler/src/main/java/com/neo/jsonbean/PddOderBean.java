@@ -51,6 +51,7 @@ public class PddOderBean  {
     private Integer order_group_success_time;
     private Integer order_modify_at;
     private String p_id;
+    private Integer id;
    private Date createTime;
    private Date updateTime;
    private Integer status;

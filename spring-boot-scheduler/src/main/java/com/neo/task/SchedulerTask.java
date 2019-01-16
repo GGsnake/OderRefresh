@@ -6,7 +6,7 @@
 //import com.neo.Utils.HttpDeal;
 //import com.neo.Utils.NetUtils;
 //import com.neo.dao.PddOderDao;
-//import com.neo.dao.TboderMapper;
+//import com.neo.dao.TbOderDao;
 //import com.neo.model.Tboder;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
@@ -43,7 +43,7 @@
 //    static Long sys=System.currentTimeMillis()-1200000;
 //    static final Integer TIMES=1200000;
 //    @Autowired
-//    TboderMapper tboderMapper;
+//    TbOderDao tboderMapper;
 //    @Autowired
 //    PddOderDao pddOderDao;
 //    private int count = 0;

@@ -15,7 +15,7 @@ public class SysJhAdviceOder implements Serializable {
 	//用户id
 	private Integer userid;
 	//订单编号
-	private Long odersn;
+	private String odersn;
 
 	public String getUserName() {
 		return userName;
@@ -71,13 +71,13 @@ public class SysJhAdviceOder implements Serializable {
 	/**
 	 * 设置：订单编号
 	 */
-	public void setOdersn(Long odersn) {
+	public void setOdersn(String odersn) {
 		this.odersn = odersn;
 	}
 	/**
 	 * 获取：订单编号
 	 */
-	public Long getOdersn() {
+	public String getOdersn() {
 		return odersn;
 	}
 	/**

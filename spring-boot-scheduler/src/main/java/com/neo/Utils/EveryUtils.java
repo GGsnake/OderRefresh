@@ -3,10 +3,9 @@ package com.neo.Utils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.util.DigestUtils;
 
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.SortedMap;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * Created by liujupeng on 2018/11/16.
@@ -38,5 +37,27 @@ public class EveryUtils {
         stringBuilder.append(SECRET);
         String hex = DigestUtils.md5DigestAsHex(stringBuilder.toString().getBytes());
         return hex.toUpperCase();
+    }
+
+    //时间戳转日期
+    public static String timeStamp2Date(String seconds,String format) {
+        if(seconds == null || seconds.isEmpty() || seconds.equals("null")){
+            return "";
+        }
+        if(format == null || format.isEmpty()) format = "yyyy-MM-dd HH:mm:ss";
+        SimpleDateFormat sdf = new SimpleDateFormat(format);
+        return sdf.format(new Date(Long.valueOf(seconds+"000")));
+    }
+    //时间戳转Date
+    public static Date timeStampDate(Long time) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String d = sdf.format(time);
+        try {
+            Date date=sdf.parse(d);
+            return date;
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }
