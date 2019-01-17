@@ -80,6 +80,6 @@ public interface TbOderDao {
 
 
 
-    Userinfo queryUserForPid(Userinfo userinfo);
+
 
 }

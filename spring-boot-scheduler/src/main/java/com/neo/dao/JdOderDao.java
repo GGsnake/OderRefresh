@@ -6,25 +6,19 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
-import java.util.List;
-
 /**
  * Created by liujupeng on 2018/11/16.
  */
 @Mapper
-public interface PddOderDao {
+public interface JdOderDao {
     Integer addOder(@Param("oder") PddOderBean pddOderBean);
 
     @Insert("insert into scanlog(lastTime,createTime,devName) values(#{date},now(),#{dev})")
     void scanLog(@Param("date") String date, @Param("dev") String dev);
 
-
-    @Select("select id from oder where order_sn=#{sn} limit 1")
-    PddOderBean findIs(String sn);
-
-
-    @Select("select * from oder where order_status=5 and settle=0")
-    List<PddOderBean> scanPddOder();
+//
+//    @Select("select id from oder where order_sn=#{sn} limit 1")
+//     findIs(String sn);
 
     /**
      * 更新拼多多的订单
