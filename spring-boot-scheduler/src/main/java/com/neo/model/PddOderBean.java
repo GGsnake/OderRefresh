@@ -1,4 +1,4 @@
-package com.neo.jsonbean;
+package com.neo.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -35,7 +35,7 @@ public class PddOderBean  {
      */
 
     private String order_sn;
-    private Integer goods_id;
+    private Long goods_id;
     private String goods_name;
     private String goods_thumbnail_url;
     private Integer goods_quantity;
@@ -55,5 +55,6 @@ public class PddOderBean  {
    private Date createTime;
    private Date updateTime;
    private Integer status;
+   private Integer settle;
 
 }

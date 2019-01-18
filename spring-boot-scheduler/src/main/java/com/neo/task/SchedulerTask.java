@@ -7,7 +7,7 @@
 //import com.neo.Utils.NetUtils;
 //import com.neo.dao.PddOderDao;
 //import com.neo.dao.TbOderDao;
-//import com.neo.model.Tboder;
+//import com.neo.model.TboderBean;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 //import org.springframework.beans.factory.annotation.Autowired;

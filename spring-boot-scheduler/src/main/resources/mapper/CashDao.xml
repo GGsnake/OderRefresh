@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neo.dao.CashDao">
+
+
+
+
+
+    <insert id="addCashLog"  parameterType="com.neo.model.SysJhCashLog" useGeneratedKeys="true" keyProperty="id">
+		insert into jh_cash_log
+		(
+			`userId`,
+			`src`,
+			`amount`,
+			`userName`,
+			`role`,
+			`score`,
+			`settleTime`,
+			`oderSn`,
+			`createTime`,
+			`status`
+		)
+		values
+		(
+			#{userid},
+			#{src},
+			#{amount},
+			#{username},
+			#{role},
+			#{score},
+			#{settletime},
+			#{odersn},
+			now(),
+			0
+		)
+	</insert>
+
+</mapper>

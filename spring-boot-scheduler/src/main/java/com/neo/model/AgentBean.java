@@ -12,7 +12,7 @@ import java.util.Date;
 @ToString
 @Setter
 @Getter
-public class Agent {
+public class AgentBean {
     private Integer id;
     private Integer userId;
     private Integer agentId;

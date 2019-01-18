@@ -1,32 +1,25 @@
-//package com.neo;
-//
-//import org.junit.Test;
-//import org.junit.runner.RunWith;
-//import org.springframework.boot.SpringApplication;
-//import org.springframework.boot.test.context.SpringBootTest;
-//import org.springframework.test.context.junit4.SpringRunner;
-//
-//import java.time.LocalDateTime;
-//import java.time.format.DateTimeFormatter;
-//
-////@RunWith(SpringRunner.class)
-////@SpringBootTest
-//public class ApplicationTests {
-//    public static void main(String[] args) {
-//        String datetime =  "20190117111012";
-//
-//
-//        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
-//        LocalDateTime ldt = LocalDateTime.parse(datetime,dtf);
-//        System.out.println(ldt);
-//
-//
-//        DateTimeFormatter fa = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-//        String datetime2 = ldt.format(fa);
-//        System.out.println(datetime2);
-//    }
-//	public void contextLoads() {
-//
-//	}
-//
-//}
+package com.neo;
+
+import com.neo.model.PddOderBean;
+import com.neo.service.SettleService;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class ApplicationTests {
+    @Autowired
+    private  SettleService settleService;
+    @Test
+	public void contextLoads() {
+        PddOderBean pd=new PddOderBean();
+        pd.setOrder_sn("21321321312312312");
+        pd.setP_id("4165519_50161401");
+        pd.setPromotion_amount(1000);
+        Boolean aBoolean = settleService.pddSettle(pd);
+    }
+
+}

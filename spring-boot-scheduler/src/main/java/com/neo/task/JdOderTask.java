@@ -13,7 +13,7 @@
 //import com.neo.dao.PddOderDao;
 //import com.neo.dao.TbOderDao;
 //import com.neo.model.SysJhAdviceOder;
-//import com.neo.model.Tboder;
+//import com.neo.model.TboderBean;
 //import com.neo.model.Userinfo;
 //import jd.union.open.order.query.request.OrderReq;
 //import jd.union.open.order.query.request.UnionOpenOrderQueryRequest;
@@ -85,7 +85,7 @@
 //
 //            for (int i = 0; i < oderData.length; i++) {
 //                OrderResp temp = oderData[i];
-//                Tboder tboder = new Tboder();
+//                TboderBean tboder = new TboderBean();
 //                tboder.setAdzoneId(Long.valueOf(temp.getString("adzone_id")));
 //                tboder.setAdzoneName(temp.getString("adzone_name"));
 //                tboder.setAlipayTotalPrice(temp.getString("alipay_total_price"));

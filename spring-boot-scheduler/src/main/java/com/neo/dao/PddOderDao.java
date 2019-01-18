@@ -1,6 +1,6 @@
 package com.neo.dao;
 
-import com.neo.jsonbean.PddOderBean;
+import com.neo.model.PddOderBean;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -22,7 +22,10 @@ public interface PddOderDao {
     @Select("select id from oder where order_sn=#{sn} limit 1")
     PddOderBean findIs(String sn);
 
-
+    /**
+     * 扫描拼多多已结算订单
+     * @return
+     */
     @Select("select * from oder where order_status=5 and settle=0")
     List<PddOderBean> scanPddOder();
 

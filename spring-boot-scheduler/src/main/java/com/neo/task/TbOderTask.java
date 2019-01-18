@@ -9,7 +9,7 @@
 //import com.neo.dao.PddOderDao;
 //import com.neo.dao.TbOderDao;
 //import com.neo.model.SysJhAdviceOder;
-//import com.neo.model.Tboder;
+//import com.neo.model.TboderBean;
 //import com.neo.model.Userinfo;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
@@ -80,7 +80,7 @@
 //            PAGE_SIZE += 3;
 //            for (int i = 0; i < data.size(); i++) {
 //                JSONObject temp = (JSONObject) data.get(i);
-//                Tboder tboder = new Tboder();
+//                TboderBean tboder = new TboderBean();
 //                tboder.setAdzoneId(Long.valueOf(temp.getString("adzone_id")));
 //                tboder.setAdzoneName(temp.getString("adzone_name"));
 //                tboder.setAlipayTotalPrice(temp.getString("alipay_total_price"));

@@ -1,10 +1,9 @@
 package com.neo.dao;
 
-import com.neo.jsonbean.PddOderBean;
+import com.neo.model.PddOderBean;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
 
 /**
  * Created by liujupeng on 2018/11/16.
