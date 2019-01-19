@@ -80,3 +80,8 @@ mybatis:
 juanhuang:
   range: 90
 
+miao:
+  apkey: "bb67403e-b370-681d-139c-770100c8eec2"
+  tbname: "华众有个店"
+  url: "https://api.open.21ds.cn/jd_api_v1/"
+
