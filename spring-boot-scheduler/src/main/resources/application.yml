@@ -14,6 +14,9 @@ domain:
   jdsecret: "909a02d9f2e845578f6333a3a13ea5cd"
   jdkey: "1b2eadd4ad604021a9e48aa5726c503b"
   jduid: "1001142862"
+  tbUrl: "https://router.jd.com/api"
+  tbsecret: "909a02d9f2e845578f6333a3a13ea5cd"
+  tbkey: "1b2eadd4ad604021a9e48aa5726c503b"
 
 server:
     port: 8089

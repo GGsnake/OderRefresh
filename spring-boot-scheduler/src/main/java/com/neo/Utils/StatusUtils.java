@@ -54,6 +54,15 @@ public class StatusUtils {
 
                 }
             case 2:
+                if (devId == 16) {
+                    return  "已付款";
+                }
+                if (devId == 17) {
+                    return  "已完成";
+                }
+                if (devId ==18) {
+                    return  "已结算";
+                }
 
 
         }

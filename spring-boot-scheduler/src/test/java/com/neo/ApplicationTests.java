@@ -1,5 +1,6 @@
 package com.neo;
 
+import com.neo.Utils.EveryUtils;
 import com.neo.model.PddOderBean;
 import com.neo.service.SettleService;
 import org.junit.Test;
@@ -20,6 +21,11 @@ public class ApplicationTests {
         pd.setP_id("4165519_50161401");
         pd.setPromotion_amount(1000);
         Boolean aBoolean = settleService.pddSettle(pd);
+    }
+    @Test
+	public void time() {
+        String yyyyMMddHHmm = EveryUtils.timeStamp2Date("1548063914", "yyyyMMddHHmm");
+        System.out.println(yyyyMMddHHmm);
     }
 
 }

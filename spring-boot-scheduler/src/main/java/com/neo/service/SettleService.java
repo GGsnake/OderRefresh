@@ -1,5 +1,6 @@
 package com.neo.service;
 
+import com.neo.jsonbean.JdJson.Jdoder;
 import com.neo.model.PddOderBean;
 import com.neo.model.TboderBean;
 
@@ -19,4 +20,11 @@ public interface SettleService {
      * @return
      */
     Boolean taoBaoSettle(TboderBean tboderBean);
+    /**
+     * 京东结算
+     *
+     * @param jdoder
+     * @return
+     */
+    Boolean jdSettle(Jdoder jdoder);
 }
