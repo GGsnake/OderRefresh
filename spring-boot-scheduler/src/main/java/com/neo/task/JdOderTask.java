@@ -40,7 +40,7 @@ import java.util.Map;
 public class JdOderTask {
     @Value("${miao.apkey}")
     private String apkey;
-    @Value("${miao.url}")
+    @Value("${miao.jdurl}")
     private String url;
     @Value("${domain.jduid}")
     private String jduid;

@@ -3,6 +3,7 @@ package com.neo.Utils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.util.DigestUtils;
 
+import java.io.UnsupportedEncodingException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -59,5 +60,31 @@ public class EveryUtils {
             e.printStackTrace();
         }
         return null;
+    }
+
+     public static String getURLEncoderString(String str) {
+        String result = "";
+        if (null == str) {
+            return "";
+        }
+        try {
+            result = java.net.URLEncoder.encode(str, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+
+    public static String URLDecoderString(String str) {
+        String result = "";
+        if (null == str) {
+            return "";
+        }
+        try {
+            result = java.net.URLDecoder.decode(str, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 }

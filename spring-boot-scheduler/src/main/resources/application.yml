@@ -1,22 +1,3 @@
-pdd_pro:
-  pdd-key: bbc1737d63e44e278dbffa9e96a7eca3
-  pdd-secret: 5e1a03eb561bac0c63c5efc8c1472119fc3ad405
-  pdd-access_token: fd5d312adc6e4200bcf314cf943a287593ee3f07
-  pdd-url: https://wj.hxksky.com
-  pdd-router-url: https://gw-api.pinduoduo.com/api/router
-
-domain:
-  url: "http://120.79.62.89/"
-  codeurl: "http://120.79.62.89:8080"
-  localurl: "http://192.168.0.102"
-  jdimageurl: "http://img14.360buyimg.com/n1/"
-  jdUrl: "https://router.jd.com/api"
-  jdsecret: "909a02d9f2e845578f6333a3a13ea5cd"
-  jdkey: "1b2eadd4ad604021a9e48aa5726c503b"
-  jduid: "1001142862"
-  tbUrl: "https://router.jd.com/api"
-  tbsecret: "909a02d9f2e845578f6333a3a13ea5cd"
-  tbkey: "1b2eadd4ad604021a9e48aa5726c503b"
 
 server:
     port: 8089
@@ -84,7 +65,28 @@ juanhuang:
   range: 90
 
 miao:
-  apkey: "bb67403e-b370-681d-139c-770100c8eec2"
+  apkey: "c003483d-fd72-c78a-72ec-1d0e6034919d"
   tbname: "华众有个店"
-  url: "https://api.open.21ds.cn/jd_api_v1/"
+  jdurl: "https://api.open.21ds.cn/jd_api_v1/"
+  tburl: "https://api.open.21ds.cn/apiv1/"
+
+pdd_pro:
+  pdd-key: bbc1737d63e44e278dbffa9e96a7eca3
+  pdd-secret: 5e1a03eb561bac0c63c5efc8c1472119fc3ad405
+  pdd-access_token: fd5d312adc6e4200bcf314cf943a287593ee3f07
+  pdd-url: https://wj.hxksky.com
+  pdd-router-url: https://gw-api.pinduoduo.com/api/router
+
+domain:
+  url: "http://120.79.62.89/"
+  codeurl: "http://120.79.62.89:8080"
+  localurl: "http://192.168.0.102"
+  jdimageurl: "http://img14.360buyimg.com/n1/"
+  jdUrl: "https://router.jd.com/api"
+  jdsecret: "909a02d9f2e845578f6333a3a13ea5cd"
+  jdkey: "1b2eadd4ad604021a9e48aa5726c503b"
+  jduid: "1001142862"
+  tbUrl: "https://router.jd.com/api"
+  tbsecret: "909a02d9f2e845578f6333a3a13ea5cd"
+  tbkey: "1b2eadd4ad604021a9e48aa5726c503b"
 

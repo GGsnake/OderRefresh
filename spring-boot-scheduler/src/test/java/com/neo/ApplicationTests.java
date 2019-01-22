@@ -26,6 +26,7 @@ public class ApplicationTests {
 	public void time() {
         String yyyyMMddHHmm = EveryUtils.timeStamp2Date("1548063914", "yyyyMMddHHmm");
         System.out.println(yyyyMMddHHmm);
+
     }
 
 }
