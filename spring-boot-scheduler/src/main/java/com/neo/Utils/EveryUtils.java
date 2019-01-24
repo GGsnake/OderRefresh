@@ -22,7 +22,8 @@ public class EveryUtils {
     private String PDD_URL;
     @Value("${juanhuang.range}")
     private Integer RANGE;
-    public  static String pddSign(SortedMap urlSign, String SECRET){
+
+    public static String pddSign(SortedMap urlSign, String SECRET) {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(SECRET);
         Set<Map.Entry<String, String>> entry = urlSign.entrySet();
@@ -41,20 +42,21 @@ public class EveryUtils {
     }
 
     //时间戳转日期
-    public static String timeStamp2Date(String seconds,String format) {
-        if(seconds == null || seconds.isEmpty() || seconds.equals("null")){
+    public static String timeStamp2Date(String seconds, String format) {
+        if (seconds == null || seconds.isEmpty() || seconds.equals("null")) {
             return "";
         }
-        if(format == null || format.isEmpty()) format = "yyyy-MM-dd HH:mm:ss";
+        if (format == null || format.isEmpty()) format = "yyyy-MM-dd HH:mm:ss";
         SimpleDateFormat sdf = new SimpleDateFormat(format);
-        return sdf.format(new Date(Long.valueOf(seconds+"000")));
+        return sdf.format(new Date(Long.valueOf(seconds + "000")));
     }
+
     //时间戳转Date
     public static Date timeStampDate(Long time) {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String d = sdf.format(time);
         try {
-            Date date=sdf.parse(d);
+            Date date = sdf.parse(d);
             return date;
         } catch (ParseException e) {
             e.printStackTrace();
@@ -62,7 +64,14 @@ public class EveryUtils {
         return null;
     }
 
-     public static String getURLEncoderString(String str) {
+    //时间戳转Date
+    public static String dateToString(Date time) {
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String dateString = formatter.format(time);
+        return dateString;
+    }
+
+    public static String getURLEncoderString(String str) {
         String result = "";
         if (null == str) {
             return "";

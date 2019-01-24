@@ -21,14 +21,12 @@ public class TboderBean {
 
 
     private Double commission;
+    private Double pub_share_pre_fee;
 
     private String commissionRate;
-
-
     private String orderType;
-
-
     private String itemTitle;
+    private String income_rate;
 
     private Long itemNum;
 

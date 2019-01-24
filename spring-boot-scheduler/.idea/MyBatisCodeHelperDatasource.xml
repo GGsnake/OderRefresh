@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="genJavaMapperPath" value="$PROJECT_DIR$/src/main/java/com/neo/model" />
+        <option name="genMapperXmlPath" value="$PROJECT_DIR$/src/main/java/com/neo/model" />
+        <option name="genServiceInterfacePath" value="$PROJECT_DIR$/src/main/java/com/neo/model" />
+        <option name="genServicePath" value="$PROJECT_DIR$/src/main/java/com/neo/model" />
+        <option name="genSqlFilePath" value="$PROJECT_DIR$/src/main/java/com/neo/model" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
