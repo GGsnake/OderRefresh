@@ -51,31 +51,29 @@ public class TbOderTask {
     private String url;
     private static final String SPAN = "1200";
 
-    //    private static Long start_sys = System.currentTimeMillis() / 1000 - 1200;
     //订单落库
-    @Scheduled(fixedRate = 10000)
+    @Scheduled(fixedRate = 100000)
     public void taobaoOder() {
-
         Integer PAGE_SIZE = 10;
         Integer PAGE_NO = 1;
         ScanLog scanLog = new ScanLog();
         scanLog.setSrc(0);
-//        Date lastTime = scanLogDao.getLastTime(scanLog);
-//        if (lastTime == null) {
-//            log.warning("淘宝订单扫描失败时间为======" + EveryUtils.dateToString(new Date()));
-//            return;
-//        }
-        Long tempTime = 1548324635000l;
-//        Long start_sys = tempTime += 100000;
+        Date lastTime = scanLogDao.getLastTime(scanLog);
+        if (lastTime == null) {
+            log.warning("淘宝订单扫描失败时间为======" + EveryUtils.dateToString(new Date()));
+            return;
+        }
+        Long tempTime = lastTime.getTime();
+        Long start_sys = tempTime + 100000;
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String day = dateFormat.format(tempTime);
         String starttime = EveryUtils.getURLEncoderString(day);
-//        ScanLog scan = new ScanLog();
-//        scan.setDevName("淘宝");
-//        scan.setSrc(0);
-//        scan.setLastTime(new Date(start_sys));
-//        scanLogDao.scanLog(scan);
-//        log.warning(day);
+        ScanLog scan = new ScanLog();
+        scan.setDevName("淘宝");
+        scan.setSrc(0);
+        scan.setLastTime(new Date(start_sys));
+        scanLogDao.scanLog(scan);
+        log.warning("淘宝"+day);
         while (true) {
             String tburl = url + "gettkorder?";
             Map<String, String> urlSign = new HashMap<>();
@@ -182,6 +180,7 @@ public class TbOderTask {
                         tboder.setSiteName(temp.getString("site_name"));
                         tboder.setTotalCommissionRate(temp.getString("total_commission_rate"));
                         tboder.setTrade_id(temp.getLong("trade_id"));
+                        tboder.setPub_share_pre_fee(Double.valueOf(temp.getString("pub_share_pre_fee")));
                         tboder.setTradeParentId(temp.getLong("trade_parent_id"));
                         tboder.setOdercreateTime(temp.getDate("create_time"));
                         Integer is = tbOderDao.findIs(tboder.getTrade_id());

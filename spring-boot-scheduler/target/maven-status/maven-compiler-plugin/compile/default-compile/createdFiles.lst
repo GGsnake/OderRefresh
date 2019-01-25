@@ -1,7 +1,9 @@
 com\neo\model\TboderBean.class
+com\neo\task\JdOderTask.class
 com\neo\dao\AgentDao.class
 com\neo\model\ScanLog.class
 com\neo\Application.class
+com\neo\task\PddOderTask.class
 com\neo\task\TbOderTask.class
 com\neo\Utils\EveryUtils.class
 com\neo\jsonbean\s.class
@@ -10,6 +12,7 @@ com\neo\jsonbean\JdJson\Sku.class
 com\neo\model\AgentBean.class
 com\neo\service\ScanLogService.class
 com\neo\config\RestTemplateConfig.class
+com\neo\task\SettlePddTask.class
 com\neo\model\Userinfo.class
 com\neo\Utils\NetUtils.class
 com\neo\model\JdOderBean$JdOderBeanBuilder.class

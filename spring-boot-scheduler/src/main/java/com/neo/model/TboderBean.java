@@ -12,22 +12,15 @@ import java.util.Date;
 public class TboderBean {
 
     private Long id;
-
     private Long adzone_id;
-
     private String adzoneName;
-
     private String alipayTotalPrice;
-
-
     private Double commission;
     private Double pub_share_pre_fee;
-
     private String commissionRate;
     private String orderType;
     private String itemTitle;
     private String income_rate;
-
     private Long itemNum;
 
     private Long numIid;
