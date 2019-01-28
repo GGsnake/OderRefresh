@@ -12,6 +12,7 @@ import org.apache.ibatis.annotations.Select;
 
 @Mapper
 public interface ScanLogDao {
+
     @Insert("insert into jh_oder_scan(lastTime,src,devName) values(#{lastTime} ,#{src},#{devName})")
     Integer scanLog(ScanLog scanLog);
 
