@@ -49,6 +49,8 @@ public class TbOderTask {
     private String apkey;
     @Value("${miao.tburl}")
     private String url;
+    @Value("${miao.tbname")
+    private String tbname;
     private static final String SPAN = "1200";
 
     //订单落库
@@ -82,7 +84,7 @@ public class TbOderTask {
 //            urlSign.put("starttime", "2019-01-22+15%3a48%3a22");
             urlSign.put("span", SPAN);
             urlSign.put("ordertype", "create_time");
-            urlSign.put("tbname", "华众有个店");
+            urlSign.put("tbname", tbname);
             urlSign.put("tkstatus", "1");
             urlSign.put("page", PAGE_NO.toString());
             urlSign.put("pagesize", PAGE_SIZE.toString());
