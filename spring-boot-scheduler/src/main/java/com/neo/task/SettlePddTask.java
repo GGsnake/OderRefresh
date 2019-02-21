@@ -27,7 +27,7 @@ public class SettlePddTask {
     @Autowired
     private SettleService settleService;
     //拼多多订单结算
-    @Scheduled(cron = "0 0 0 20 * ? ")
+    @Scheduled(cron = "0 0 0 21 * ? ")
     public void settlePdd() {
         List<PddOderBean> data = pddOderDao.scanPddOder();
         for (int i = 0; i < data.size(); i++) {
@@ -36,7 +36,7 @@ public class SettlePddTask {
         }
     }
     //淘宝订单结算
-    @Scheduled(cron = "0 0 0 20 * ? ")
+    @Scheduled(cron = "0 0 0 21 * ? ")
     public void settleTaoBao() {
         List<TboderBean> data = tbOderDao.scanTaoBaoOder();
         for (int i = 0; i < data.size(); i++) {
@@ -45,7 +45,7 @@ public class SettlePddTask {
     }
 
     //京东订单结算
-    @Scheduled(cron ="0 0 0 20 * ? ")
+    @Scheduled(cron ="0 0 0 21 * ? ")
     public void settleJd() {
         List<Jdoder> data = jdOderDao.scanJdOder();
         for (int i = 0; i < data.size(); i++) {

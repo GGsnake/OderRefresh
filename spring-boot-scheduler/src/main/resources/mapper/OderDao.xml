@@ -25,15 +25,12 @@
             goods_quantity, goods_price,
             order_amount,p_id,promotion_rate,promotion_amount,
             order_status,order_status_desc,order_create_time
-            ,order_modify_at,createTime,
+            ,order_modify_at,
             <if test="oder.order_pay_time != null">
                 order_pay_time,
             </if>
             <if test="oder.order_group_success_time != null">
                 order_group_success_time,
-            </if>
-            <if test="oder.order_verify_time != null">
-                order_verify_time,
             </if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
@@ -41,15 +38,12 @@
             #{oder.goods_quantity},#{oder.goods_price}
             ,#{oder.order_amount},#{oder.p_id},#{oder.promotion_rate},#{oder.promotion_amount}
             ,#{oder.order_status},#{oder.order_status_desc},#{oder.order_create_time},
-            #{oder.order_modify_at},now(),
+            #{oder.order_modify_at},
             <if test="oder.order_pay_time != null">
                 #{oder.order_pay_time} ,
             </if>
             <if test="oder.order_group_success_time != null">
                 #{oder.order_group_success_time},
-            </if>
-            <if test="oder.order_verify_time != null">
-                #{oder.order_verify_time},
             </if>
         </trim>
     </insert>
@@ -61,9 +55,6 @@
         -->
         update oder
         <set>
-            <if test="order_verify_time != null">
-                order_verify_time = #{order_verify_time},
-            </if>
             <if test="order_pay_time != null">
                 order_pay_time = #{order_pay_time},
             </if>

@@ -11,7 +11,9 @@ import com.neo.model.*;
 import com.pdd.pop.sdk.http.PopClient;
 import com.pdd.pop.sdk.http.PopHttpClient;
 import com.pdd.pop.sdk.http.api.request.PddDdkAllOrderListIncrementGetRequest;
+import com.pdd.pop.sdk.http.api.request.PddDdkOrderListIncrementGetRequest;
 import com.pdd.pop.sdk.http.api.response.PddDdkAllOrderListIncrementGetResponse;
+import com.pdd.pop.sdk.http.api.response.PddDdkOrderListIncrementGetResponse;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -49,7 +51,7 @@ public class PddOderTask {
     //订单落库
     @Scheduled(fixedRate = 100000)
     public void SynchronOder()  {
-        Integer PAGE_SIZE = 95;
+        Integer PAGE_SIZE = 50;
         Integer PAGE_NO = 1;
         ScanLog scanLog = new ScanLog();
         scanLog.setSrc(2);
@@ -72,22 +74,25 @@ public class PddOderTask {
         PopClient client = new PopHttpClient(PDD_KEY, PDD_SECRET);
         while (true) {
             try {
-                PddDdkAllOrderListIncrementGetRequest request = new PddDdkAllOrderListIncrementGetRequest();
+                PddDdkOrderListIncrementGetResponse response = null;
+                PddDdkOrderListIncrementGetRequest request = new PddDdkOrderListIncrementGetRequest();
+//                                request.setEndUpdateTime(1550733001l);
+//                request.setStartUpdateTime(1550718601l);
                 request.setStartUpdateTime(tempTime/1000);
-                request.setEndUpdateTime(start_sys/1000+10);
+                request.setEndUpdateTime(start_sys/1000);
                 request.setPageSize(PAGE_SIZE);
                 request.setPage(PAGE_NO);
-                PddDdkAllOrderListIncrementGetResponse response = null;
                 response = client.syncInvoke(request);
                 if (response.getOrderListGetResponse().getTotalCount() == 0) {
                     break;
                 }
-                List<PddDdkAllOrderListIncrementGetResponse.OrderListItem> orderList = response.getOrderListGetResponse().getOrderList();
+                List<PddDdkOrderListIncrementGetResponse.OrderListItem> orderList = response.getOrderListGetResponse().getOrderList();
                 for (int i = 0; i < orderList.size(); i++) {
-                    PddDdkAllOrderListIncrementGetResponse.OrderListItem orderListItem = orderList.get(i);
+                    PddDdkOrderListIncrementGetResponse.OrderListItem orderListItem = orderList.get(i);
                     PddOderBean data = new PddOderBean();
                     String orderSn = orderListItem.getOrderSn();
                     PddOderBean pddOderBean = pddOderDao.findIs(orderSn);
+
                     if (pddOderBean == null) {
                         data.setOrder_sn(orderListItem.getOrderSn());
                         data.setGoods_id(orderListItem.getGoodsId());
@@ -97,7 +102,6 @@ public class PddOderTask {
                         data.setGoods_price(orderListItem.getGoodsPrice().intValue());
                         data.setOrder_amount(orderListItem.getOrderAmount().intValue());
                         data.setOrder_create_time(orderListItem.getOrderCreateTime().intValue());
-                        data.setOrder_verify_time(orderListItem.getOrderVerifyTime().intValue());
                         data.setOrder_pay_time(orderListItem.getOrderPayTime().intValue());
                         data.setPromotion_rate(orderListItem.getPromotionRate().intValue());
                         data.setPromotion_amount(orderListItem.getPromotionAmount().intValue());
@@ -113,7 +117,7 @@ public class PddOderTask {
                         SysJhAdviceOder var = new SysJhAdviceOder().setName(data.getGoods_name()).setUserName(userinfo.getUsername());
                         var.setOdersn(data.getOrder_sn()).setPid(data.getP_id()).setOrderStatus(StatusUtils.getStatus(data.getOrder_status(), 1));
                         var.setSrc(3).setUserid(userinfo.getId().intValue()).setSrcName("拼多多");
-                        Integer order_create_time = data.getOrder_create_time();
+                        Long order_create_time = orderListItem.getOrderCreateTime().longValue()*1000;
                         var.setOderCreatetime(EveryUtils.timeStampDate(Long.valueOf(order_create_time)));
                         var.setOrderStatusDesc(data.getOrder_status_desc());
 
@@ -127,7 +131,6 @@ public class PddOderTask {
                         }
                     } else {
                         Integer id = pddOderBean.getId();
-                        data.setOrder_verify_time(orderListItem.getOrderVerifyTime().intValue());
                         data.setOrder_pay_time(orderListItem.getOrderPayTime().intValue());
                         data.setOrder_status(orderListItem.getOrderStatus());
                         data.setOrder_status_desc(orderListItem.getOrderStatusDesc());
@@ -143,6 +146,8 @@ public class PddOderTask {
                 PAGE_NO++;
             } catch (Exception e) {
                 e.printStackTrace();
+                break;
+
             }
         }
 
