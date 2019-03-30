@@ -9,8 +9,11 @@
             <if test="pddPid!= null">
                 pddPid = #{pddPid}
             </if>
-            <if test="tbPid!= null">
-                tbPid = #{tbPid}
+            <if test="rid!= null">
+                rid = #{rid}
+            </if>
+            <if test="spid!= null">
+                spid = #{spid}
             </if>
             <if test="jdPid!= null">
                 jdPid = #{jdPid}

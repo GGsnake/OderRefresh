@@ -52,12 +52,15 @@ public class JdOderTask {
     private TbOderDao tbOderDao;
     @Autowired
     private RestTemplate restTemplate;
+    @Autowired
+    private SettingDao settingDao;
 
     //订单落库
     @Scheduled(fixedRate = 60000)
     public void SynchronOder() {
         Integer PAGE_SIZE = 10;
         Integer PAGE_NO = 1;
+        Config jdAuthKey = settingDao.querySetting("JdAuthKey");
         ScanLog scanLog = new ScanLog();
         scanLog.setSrc(1);
         Date lastTime = scanLogDao.getLastTime(scanLog);
@@ -83,10 +86,11 @@ public class JdOderTask {
             Map<String, String> urlSign = new HashMap<>();
             urlSign.put("apkey", apkey);
             urlSign.put("time", yyyyMMddHHmm);
-//            urlSign.put("time", "201901181015");
-            urlSign.put("type", "3");
+//            urlSign.put("time", "201903261708");
+            urlSign.put("type", "1");
             urlSign.put("pageNo", PAGE_NO.toString());
             urlSign.put("pageSize", PAGE_SIZE.toString());
+            urlSign.put("key", jdAuthKey.getConfigValue());
             String linkStringByGet = null;
             try {
                 linkStringByGet = NetUtils.createLinkStringByGet(urlSign);
@@ -128,7 +132,7 @@ public class JdOderTask {
                             var.setOdersn(jdOderBean.getOrderId().toString()).setPid(String.valueOf(sku.getPositionId())).setOrderStatus(StatusUtils.getStatus(jdOderBean.getValidCode(), 2));
                             var.setSrc(2).setUserid(userinfo.getId().intValue()).setSrcName("京东");
                             var.setOderCreatetime(EveryUtils.timeStampDate(Long.valueOf(orderTime)));
-                            var.setOrderStatusDesc(StatusUtils.getStatusDesc(2, validCode));
+                            var.setOrderStatusDesc(StatusUtils.getStatusDesc(validCode,2 ));
                             tbOderDao.saveTbOderAdvice(var);
                         } else {
                             Jdoder jdoder = new Jdoder();

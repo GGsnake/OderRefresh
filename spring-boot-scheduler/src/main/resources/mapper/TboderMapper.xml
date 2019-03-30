@@ -87,7 +87,7 @@
         num_iid, pay_price, price,
         tk_status, site_id, site_name,
         total_commission_rate, trade_id, trade_parent_id,
-        odercreate_time, createTime,settle,income_rate,pub_share_pre_fee
+        odercreate_time, createTime,settle,income_rate,pub_share_pre_fee,relation_id,special_id,click_time
         )
         values (#{adzone_id}, #{adzoneName,jdbcType=VARCHAR},
         #{alipayTotalPrice,jdbcType=VARCHAR}, #{commission}, #{commissionRate,jdbcType=VARCHAR},
@@ -95,7 +95,7 @@
         #{numIid,jdbcType=INTEGER}, #{payPrice,jdbcType=VARCHAR}, #{price,jdbcType=VARCHAR},
         #{tkStatus,jdbcType=TINYINT}, #{siteId,jdbcType=VARCHAR}, #{siteName,jdbcType=VARCHAR},
         #{totalCommissionRate,jdbcType=VARCHAR}, #{trade_id}, #{tradeParentId},
-        #{odercreateTime},now(),0,#{income_rate},#{pub_share_pre_fee}
+        #{odercreateTime},now(),0,#{income_rate},#{pub_share_pre_fee},#{relation_id},#{special_id},#{click_time}
         )
     </insert>
     <insert id="insertSelective" parameterType="com.neo.model.TboderBean">
@@ -314,6 +314,9 @@
             </if>
             <if test="tb.commissionRate != null">
                 commission_rate = #{tb.commissionRate,jdbcType=VARCHAR},
+            </if>
+            <if test="tb.click_time != null">
+                click_time = #{tb.click_time},
             </if>
 
             <if test="tb.tkStatus != null">

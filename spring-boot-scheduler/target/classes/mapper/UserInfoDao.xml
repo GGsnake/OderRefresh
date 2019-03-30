@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neo.dao.UserInfoDao">
+    <select id="queryPidUser" resultType="com.neo.model.Userinfo">
+        select
+      *
+        from userinfo
+        <where>
+            <if test="pddPid!= null">
+                pddPid = #{pddPid}
+            </if>
+            <if test="rid!= null">
+                rid = #{rid}
+            </if>
+            <if test="spid!= null">
+                spid = #{spid}
+            </if>
+            <if test="jdPid!= null">
+                jdPid = #{jdPid}
+            </if>
+            <if test="id!= null">
+                id = #{id}
+            </if>
+            and status =0 limit 1
+        </where>
+
+
+    </select>
+
+</mapper>

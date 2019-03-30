@@ -77,7 +77,7 @@ public class EveryUtils {
             return "";
         }
         try {
-            result = java.net.URLEncoder.encode(str, "UTF-8");
+            result = java.net.URLEncoder.encode(str, "utf-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }

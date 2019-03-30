@@ -43,6 +43,9 @@ public class StatusUtils {
                 if (devId == 3) {
                     return "已结算";
                 }
+                if (devId == 13) {
+                    return "已退款";
+                }
             case 1:
                 if (devId == 0) {
 

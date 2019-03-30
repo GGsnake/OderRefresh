@@ -47,10 +47,11 @@ public class PddOderTask {
     private ScanLogDao scanLogDao;
     @Autowired
     private UserInfoDao userInfoDao;
+
     //扫描开始时间
     //订单落库
     @Scheduled(fixedRate = 100000)
-    public void SynchronOder()  {
+    public void SynchronOder() {
         Integer PAGE_SIZE = 50;
         Integer PAGE_NO = 1;
         ScanLog scanLog = new ScanLog();
@@ -76,8 +77,8 @@ public class PddOderTask {
             try {
                 PddDdkOrderListIncrementGetResponse response = null;
                 PddDdkOrderListIncrementGetRequest request = new PddDdkOrderListIncrementGetRequest();
-//                                request.setEndUpdateTime(1550733001l);
-//                request.setStartUpdateTime(1550718601l);
+//                request.setStartUpdateTime(1553170800l);
+//             request.setEndUpdateTime(1553172000l);
                 request.setStartUpdateTime(tempTime/1000);
                 request.setEndUpdateTime(start_sys/1000);
                 request.setPageSize(PAGE_SIZE);
@@ -117,7 +118,7 @@ public class PddOderTask {
                         SysJhAdviceOder var = new SysJhAdviceOder().setName(data.getGoods_name()).setUserName(userinfo.getUsername());
                         var.setOdersn(data.getOrder_sn()).setPid(data.getP_id()).setOrderStatus(StatusUtils.getStatus(data.getOrder_status(), 1));
                         var.setSrc(3).setUserid(userinfo.getId().intValue()).setSrcName("拼多多");
-                        Long order_create_time = orderListItem.getOrderCreateTime().longValue()*1000;
+                        Long order_create_time = orderListItem.getOrderCreateTime().longValue() * 1000;
                         var.setOderCreatetime(EveryUtils.timeStampDate(Long.valueOf(order_create_time)));
                         var.setOrderStatusDesc(data.getOrder_status_desc());
 

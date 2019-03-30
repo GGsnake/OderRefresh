@@ -22,13 +22,9 @@ public class TboderBean {
     private String itemTitle;
     private String income_rate;
     private Long itemNum;
-
     private Long numIid;
-
     private String payPrice;
-
     private String price;
-
     private Integer tkStatus;
     private String siteId;
     private String siteName;
@@ -38,6 +34,9 @@ public class TboderBean {
     private Date odercreateTime;
     private Date createtime;
     private Date updatetime;
+    private Date click_time;
     private Integer settle;
+    private String relation_id;
+    private String special_id;
 
 }
