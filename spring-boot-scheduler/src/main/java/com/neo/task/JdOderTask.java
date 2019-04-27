@@ -10,24 +10,16 @@ import com.neo.dao.*;
 import com.neo.jsonbean.JdJson.Jdoder;
 import com.neo.jsonbean.JdJson.Sku;
 import com.neo.model.*;
-import com.pdd.pop.sdk.http.PopClient;
-import com.pdd.pop.sdk.http.PopHttpClient;
-import com.pdd.pop.sdk.http.api.request.PddDdkAllOrderListIncrementGetRequest;
-import com.pdd.pop.sdk.http.api.response.PddDdkAllOrderListIncrementGetResponse;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-
-import java.io.UnsupportedEncodingException;
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -153,7 +145,7 @@ public class JdOderTask {
                     break;
                 }
 
-            } catch (UnsupportedEncodingException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
 

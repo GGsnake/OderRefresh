@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class NetUtils {
 
-    public static String createLinkStringByGet(Map<String, String> params) throws UnsupportedEncodingException {
+    public static String createLinkStringByGet(Map<String, String> params) {
 
         List<String> keys = new ArrayList<String>(params.keySet());
         Collections.sort(keys);

@@ -176,9 +176,9 @@ public class SettleServiceImpl implements SettleService {
     @Transactional
     public Boolean taoBaoSettle(TboderBean tboderBean) {
         Long nowTime = System.currentTimeMillis() / 1000;
-        Long p_id = tboderBean.getAdzone_id();
+        String p_id = tboderBean.getRelation_id();
         Userinfo userinfo = new Userinfo();
-        userinfo.setTbPid(p_id);
+        userinfo.setRid(p_id);
         Userinfo var = userInfoDao.queryPidUser(userinfo);
         Integer roleId = var.getRoleId();
         Integer uid = var.getId().intValue();

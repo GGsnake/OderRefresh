@@ -313,14 +313,14 @@
                 commission = #{tb.commission,jdbcType=BIGINT},
             </if>
             <if test="tb.commissionRate != null">
-                commission_rate = #{tb.commissionRate,jdbcType=VARCHAR},
+                commission_rate = #{tb.commissionRate},
             </if>
             <if test="tb.click_time != null">
                 click_time = #{tb.click_time},
             </if>
 
             <if test="tb.tkStatus != null">
-                tk_status = #{tb.tkStatus,jdbcType=TINYINT},
+                tk_status = #{tb.tkStatus},
             </if>
             updateTime=now()
 

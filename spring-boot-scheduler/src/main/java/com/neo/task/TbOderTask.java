@@ -6,7 +6,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.neo.Utils.EveryUtils;
 import com.neo.Utils.NetUtils;
 import com.neo.Utils.StatusUtils;
-import com.neo.dao.PddOderDao;
 import com.neo.dao.ScanLogDao;
 import com.neo.dao.TbOderDao;
 import com.neo.dao.UserInfoDao;
@@ -19,11 +18,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-import sun.rmi.runtime.Log;
-
-import java.io.UnsupportedEncodingException;
-import java.net.MalformedURLException;
-import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -49,7 +43,7 @@ public class TbOderTask {
     private String url;
     @Value("${miao.tbname}")
     private String tbname;
-    private static final String SPAN = "1000";
+    private static final String SPAN = "100";
 
     //订单落库
     @Scheduled(fixedRate = 100000)
@@ -79,7 +73,7 @@ public class TbOderTask {
             Map<String, String> urlSign = new HashMap<>();
             urlSign.put("apkey", apkey);
             urlSign.put("starttime", starttime);
-//            urlSign.put("starttime", "2019-03-30+16%3a13%3a22");
+//            urlSign.put("starttime", "2019-04-10+23%3a39%3a01");
             urlSign.put("span", SPAN);
             urlSign.put("ordertype", "create_time");
             urlSign.put("tbname", tbname);
@@ -176,7 +170,6 @@ public class TbOderTask {
                     if (data == null || data.size() == 0) {
                         break;
                     }
-
                     PAGE_NO++;
                     for (int i = 0; i < data.size(); i++) {
                         JSONObject temp = (JSONObject) data.get(i);
@@ -185,21 +178,6 @@ public class TbOderTask {
                         String income_rate = temp.getString("income_rate");
                         String commission = temp.getString("commission");
                         Date click_time = temp.getDate("click_time");
-                        tboder.setAdzone_id(Long.valueOf(temp.getString("adzone_id")));
-                        tboder.setAdzoneName(temp.getString("adzone_name"));
-                        tboder.setAlipayTotalPrice(temp.getString("alipay_total_price"));
-                        tboder.setNumIid(temp.getLong("num_iid"));
-                        tboder.setCommissionRate(commission_rate);
-                        tboder.setIncome_rate(income_rate);
-                        tboder.setCommission(Double.valueOf(temp.getString("commission")));
-                        tboder.setItemNum(temp.getLong("item_num"));
-                        tboder.setItemTitle(temp.getString("item_title"));
-                        tboder.setOrderType(temp.getString("order_type"));
-                        tboder.setPrice(temp.getString("price"));
-                        tboder.setPayPrice(temp.getString("pay_price"));
-                        tboder.setTkStatus(temp.getInteger("tk_status"));
-                        tboder.setSiteId(temp.getString("site_id"));
-                        tboder.setSiteName(temp.getString("site_name"));
                         if (commission != null) {
                             tboder.setCommission(Double.valueOf(commission));
                         }
@@ -212,7 +190,17 @@ public class TbOderTask {
                         else {
                             tboder.setClick_time(null);
                         }
-
+                        tboder.setAdzone_id(Long.valueOf(temp.getString("adzone_id")));
+                        tboder.setAlipayTotalPrice(temp.getString("alipay_total_price"));
+                        tboder.setNumIid(temp.getLong("num_iid"));
+                        tboder.setCommissionRate(commission_rate);
+                        tboder.setIncome_rate(income_rate);
+                        tboder.setItemNum(temp.getLong("item_num"));
+                        tboder.setItemTitle(temp.getString("item_title"));
+                        tboder.setOrderType(temp.getString("order_type"));
+                        tboder.setPrice(temp.getString("price"));
+                        tboder.setPayPrice(temp.getString("pay_price"));
+                        tboder.setTkStatus(temp.getInteger("tk_status"));
                         tboder.setRelation_id(temp.getString("relation_id"));
                         tboder.setSpecial_id(temp.getString("special_id"));
                         tboder.setTotalCommissionRate(temp.getString("total_commission_rate"));
@@ -247,11 +235,10 @@ public class TbOderTask {
                             tbOderDao.oderUpdate(tboder);
                         }
                     }
-                    break;
                 } else {
                     break;
                 }
-            } catch (UnsupportedEncodingException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
 

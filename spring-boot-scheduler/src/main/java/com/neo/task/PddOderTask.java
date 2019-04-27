@@ -1,6 +1,5 @@
 package com.neo.task;
 
-import com.alibaba.fastjson.JSONObject;
 import com.neo.Utils.EveryUtils;
 import com.neo.Utils.StatusUtils;
 import com.neo.dao.PddOderDao;
@@ -10,9 +9,7 @@ import com.neo.dao.UserInfoDao;
 import com.neo.model.*;
 import com.pdd.pop.sdk.http.PopClient;
 import com.pdd.pop.sdk.http.PopHttpClient;
-import com.pdd.pop.sdk.http.api.request.PddDdkAllOrderListIncrementGetRequest;
 import com.pdd.pop.sdk.http.api.request.PddDdkOrderListIncrementGetRequest;
-import com.pdd.pop.sdk.http.api.response.PddDdkAllOrderListIncrementGetResponse;
 import com.pdd.pop.sdk.http.api.response.PddDdkOrderListIncrementGetResponse;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
